@@ -10,6 +10,17 @@
       "isproject": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "Novo projeto de teste",
+      "budget": "2500",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "isproject": 0,
+      "services": [],
+      "id": 2
     }
   ],
   "categories": [

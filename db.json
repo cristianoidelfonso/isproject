@@ -21,6 +21,17 @@
       "isproject": 0,
       "services": [],
       "id": 2
+    },
+    {
+      "name": "Projeto de Teste 02",
+      "budget": "4560",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "isproject": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [

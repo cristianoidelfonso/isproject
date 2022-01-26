@@ -7,6 +7,7 @@ import Contact from './components/pages/contact';
 import Home from './components/pages/home';
 import NewProject from './components/pages/newproject';
 import Projects from './components/pages/projects';
+import Project from './components/pages/project';
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
       <Switch>
         <Container customClass="min-height">
           <Route exact path="/"><Home /></Route>
-          <Route exact path="/projects"><Projects /></Route>
-          <Route exact path="/company"><Company /></Route>
-          <Route exact path="/contact"><Contact /></Route>
-          <Route exact path="/newproject"><NewProject /></Route>
+          <Route path="/projects"><Projects /></Route>
+          <Route path="/company"><Company /></Route>
+          <Route path="/contact"><Contact /></Route>
+          <Route path="/newproject"><NewProject /></Route>
+          <Route path="/project/:id"><Project /></Route>
         </Container>
       </Switch>
       <Footer />

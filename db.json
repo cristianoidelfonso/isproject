@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "name": "Projeto de teste",
-      "budget": "2000",
+      "name": "Projeto de teste editado",
+      "budget": "2385",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "1",
+        "name": "Infra"
       },
       "isproject": 0,
       "services": [],
@@ -21,6 +21,17 @@
       "isproject": 0,
       "services": [],
       "id": 2
+    },
+    {
+      "name": "Projeto 3 Teste",
+      "budget": "5498",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "isproject": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [

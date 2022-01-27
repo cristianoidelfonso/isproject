@@ -1,12 +1,12 @@
-import { useLocation } from "react-router-dom";
-import Message from "../../layouts/Message";
-import Container from "../../layouts/Container";
-import Loading from  "../../layouts/Loading";
-import LinkButton from "../../layouts/LinkButton";
-
-import styles from  './style.module.css';
-import ProjectCard from "../../project/ProjetcCard";
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import Message from "../layouts/Message";
+import Container from "../layouts/Container";
+import Loading from  "../layouts/Loading";
+import LinkButton from "../layouts/LinkButton";
+import ProjectCard from "../project/ProjetcCard";
+
+import styles from  './Projects.module.css';
 
 function Projects() {
 
@@ -39,7 +39,7 @@ function Projects() {
       })
       .catch((error) => console.log(error))
       
-    }, 500)
+    }, 300)
   }, []);
 
   function removeProject(id){
@@ -81,15 +81,9 @@ function Projects() {
             ))
         }
         
-        { 
-          !removeLoading && <Loading /> 
-        }
+        { !removeLoading && <Loading /> }
         
-        {
-          removeLoading && projects.length === 0 && (
-            <p>Não há projetos cadastrados!</p>
-          )
-        }
+        { removeLoading && projects.length === 0 && (<p>Não há projetos cadastrados!</p>) }
       </Container>
 
     </div>   

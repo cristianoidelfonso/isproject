@@ -1,6 +1,6 @@
 import { useHistory } from 'react-router-dom';
-import ProjectForm from '../../project/ProjectForm';
-import './style.css'
+import ProjectForm from '../project/ProjectForm';
+import styles from './NewProject.module.css';
 
 function NewProject() {
 
@@ -29,7 +29,7 @@ function NewProject() {
   }
 
   return(
-    <div className='newproject_container'>
+    <div className={styles.newproject_container}>
       <h1>Criar projeto</h1>
       <p>Crie seu projeto para em seguida adicionar os recursos</p>
       <ProjectForm handleSubmit={createPost} btnText="Criar projeto" />

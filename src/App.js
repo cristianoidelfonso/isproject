@@ -2,12 +2,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Container from './components/layouts/Container';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
-import Company from './components/pages/company';
-import Contact from './components/pages/contact';
-import Home from './components/pages/home';
-import NewProject from './components/pages/newproject';
-import Projects from './components/pages/projects';
-import Project from './components/pages/project';
+import Company from './components/pages/Company';
+import Contact from './components/pages/Contact';
+import Home from './components/pages/Home';
+import NewProject from './components/pages/NewProject';
+import Projects from './components/pages/Projects';
+import Project from './components/pages/Project';
 
 function App() {
   return (

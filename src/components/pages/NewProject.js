@@ -7,8 +7,8 @@ function NewProject() {
   const history = useHistory();
 
   function createPost(project){
-    // initialize isproject and services
-    project.isproject = 0; 
+    // initialize cost and services
+    project.cost = 0; 
     project.services = [];
 
     fetch('http://localhost:5000/projects', {

@@ -2,13 +2,32 @@
   "projects": [
     {
       "name": "Projeto de teste editado",
-      "budget": "2385",
+      "budget": "2500",
       "category": {
         "id": "1",
         "name": "Infra"
       },
-      "isproject": 0,
-      "services": [],
+      "cost": 2100,
+      "services": [
+        {
+          "name": "Novo serviço",
+          "cost": "100",
+          "description": "Teste de cadastro de um novo serviço ao projeto.",
+          "id": "51866fb8-b749-49db-8fb6-f236d5fd8596"
+        },
+        {
+          "name": "Novo serviço",
+          "cost": "1000",
+          "description": "Teste de cadastro de um novo serviço ao projeto.",
+          "id": "4d658985-72ac-4680-88e9-780509253827"
+        },
+        {
+          "name": "Novo serviço",
+          "cost": "1000",
+          "description": "Teste de cadastro de um novo serviço ao projeto.",
+          "id": "50d8d54b-d9f6-4d79-b158-734b66cdb24a"
+        }
+      ],
       "id": 1
     },
     {
@@ -18,7 +37,7 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "isproject": 0,
+      "cost": 0,
       "services": [],
       "id": 2
     },
@@ -29,7 +48,7 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "isproject": 0,
+      "cost": 0,
       "services": [],
       "id": 3
     }

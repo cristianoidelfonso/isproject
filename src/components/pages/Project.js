@@ -1,4 +1,4 @@
-import { parse, v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Loading from '../layouts/Loading';
@@ -43,7 +43,6 @@ function Project(){
   function editProject(project) {
     setMessage('');
     setTypeMessage('');
-    // console.log(project);
     // budget validation
     if(project.budget < project.cost){
       setMessage('O orçamento não pode ser menor que o custo do projeto.');

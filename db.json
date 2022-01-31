@@ -1,46 +1,5 @@
 {
-  "projects": [
-    {
-      "name": "Projeto de teste editado",
-      "budget": "2500",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 250,
-      "services": [
-        {
-          "name": "Novo Serviço",
-          "cost": "250",
-          "description": "Teste",
-          "id": "3aa2d64e-e2cb-41cf-afb3-51bf5922fa00"
-        }
-      ],
-      "id": 1
-    },
-    {
-      "name": "Projeto 2",
-      "budget": "3560",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "Projeto 3 Teste",
-      "budget": "5498",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": "1",

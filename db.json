@@ -1,5 +1,24 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "name": "Projeto 1",
+      "budget": "20000",
+      "category": {
+        "id": "1",
+        "name": "Categoria 1"
+      },
+      "cost": 499,
+      "services": [
+        {
+          "name": "Serviço 1",
+          "cost": "499",
+          "description": "Descrição do serviço um",
+          "id": "2590879a-1ff7-457e-97a5-d02c2d423b8f"
+        }
+      ],
+      "id": 1
+    }
+  ],
   "categories": [
     {
       "id": "1",

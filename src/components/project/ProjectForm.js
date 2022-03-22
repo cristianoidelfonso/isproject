@@ -12,6 +12,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 
 
     useEffect(()=>{
+        // fetch('http://localhost:4000/api/categories', {
         fetch('http://localhost:5000/categories', {
             method: 'GET',
             headers: {
@@ -27,7 +28,6 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 
     const submit = (event) => {
         event.preventDefault();
-        // console.log(project)
         handleSubmit(project);
     }
 
